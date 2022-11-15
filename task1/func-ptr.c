@@ -26,7 +26,7 @@ int my_comparer(const void *this, const void *that)
 {
 	//TODO: IMPLEMENT ME!
 	const Process *p1 = this;
-  const Process *p2 = that;
+  	const Process *p2 = that;
 
 	// Sorting based on priority, sort in desecnding order
 	if (p1->priority < p2->priority) {
